@@ -2,7 +2,7 @@
 ![hOMEWORK](./AI.png)
 
 ## Overview
-Created an algorithmic trading model to evaluate the success of the Golden Cross trading strategy. This was applied to MGM Resorts International stock listed on the NYSE, evaluating daily close prices of the date range of January 1st, 2019 through March 3rd, 2022. 
+Created an algorithmic trading model to evaluate the success of the Golden Cross trading strategy. This was applied to MGM Resorts International stock listed on the NYSE, evaluating daily close prices of the date range of January 1st, 2019 through March 3rd, 2022. The purpose of the study was to evaluate a company that has implemented a sportsbook app with which BetMGM is a part of the MGM Resorts International.
 
 ## Package Requirements
 ```
@@ -31,3 +31,5 @@ In the given time period the estimated portfolio value fell from $100,000 to app
 
 ![hOMEWORK](./short.png)
 
+Utilized Logistic Regression to learn the model.
+```
