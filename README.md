@@ -17,13 +17,13 @@ This code tests the profitability of a 4 day and a 20 day simple moving average 
 MGM stock data was pulled using Alpaca API.
 
 ```python
-# Set the short_window (50) and long window (100) variables
+# Set the short_window and long window variables
 short_window = 4
 long_window = 20
 
 # Generate the short and long moving averages
-df_close['SMA50'] = df_close['Close'].rolling(window=short_window).mean()
-df_close['SMA100'] = df_close['Close'].rolling(window=long_window).mean()
+df_close['SMA4'] = df_close['Close'].rolling(window=short_window).mean()
+df_close['SMA20'] = df_close['Close'].rolling(window=long_window).mean()
 ```
 ![hOMEWORK](./SMA.png)
 
